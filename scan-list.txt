@@ -1,0 +1,126 @@
+# Список имён для netprobe scan
+# Запуск:  python3 netprobe.py scan --list scan-list.txt --json scan.json
+#
+# Формат: имя, через пробел или запятую подпись.
+#   ## начинает новую группу
+#   #  комментарий
+#
+# Проверяется реакция DPI на ИМЯ в ClientHello — сами сайты не трогаются,
+# все запросы идут на один и тот же узел. Поэтому список можно расширять
+# свободно, но помни: каждое имя — до 4 секунд при таймауте.
+#
+# Контрольную группу НЕ УДАЛЯЙ. Без неё сплошной провал не отличить
+# от обрыва связи.
+
+## Контроль (должно проходить всегда)
+example.com Контроль example.com
+www.google.com Google
+yandex.ru Яндекс
+www.gosuslugi.ru Госуслуги
+mail.ru Mail.ru
+ok.ru Одноклассники
+
+## Видео
+www.youtube.com YouTube
+youtubei.googleapis.com YouTube API
+i.ytimg.com YouTube превью
+rr1---sn-4g5e6nzs.googlevideo.com YouTube отдача видео
+yt3.ggpht.com YouTube аватары
+www.twitch.tv Twitch
+vimeo.com Vimeo
+rutube.ru RuTube
+vkvideo.ru VK Видео
+dzen.ru Дзен
+
+## Мессенджеры
+web.telegram.org Telegram Web
+api.telegram.org Telegram API
+core.telegram.org Telegram Core
+discord.com Discord
+gateway.discord.gg Discord Gateway
+web.whatsapp.com WhatsApp
+signal.org Signal
+chat.signal.org Signal Chat
+www.viber.com Viber
+element.io Matrix Element
+matrix.org Matrix
+
+## Соцсети
+x.com X/Twitter
+www.instagram.com Instagram
+www.facebook.com Facebook
+www.reddit.com Reddit
+www.linkedin.com LinkedIn
+www.tiktok.com TikTok
+
+## Шифрованный DNS (ломает резолв целиком)
+dns.google Google DoH
+cloudflare-dns.com Cloudflare DoH
+one.one.one.one Cloudflare 1.1.1.1
+dns.quad9.net Quad9 DoH
+dns.adguard-dns.com AdGuard DoH
+doh.opendns.com OpenDNS DoH
+dns.nextdns.io NextDNS
+mozilla.cloudflare-dns.com Mozilla DoH
+
+## Обходные пути и точки входа
+www.cloudflare.com Cloudflare
+speed.cloudflare.com Cloudflare Speed
+www.torproject.org Tor Project
+bridges.torproject.org Tor Bridges
+snowflake-broker.torproject.net Snowflake
+protonvpn.com ProtonVPN
+amnezia.org Amnezia
+getoutline.org Outline
+www.wireguard.com WireGuard
+psiphon.ca Psiphon
+www.lantern.io Lantern
+
+## Почта и облака
+mail.proton.me Proton Mail
+mail.google.com Gmail
+drive.google.com Google Drive
+outlook.office.com Outlook
+www.dropbox.com Dropbox
+mega.nz MEGA
+
+## Разработка и репозитории
+github.com GitHub
+raw.githubusercontent.com GitHub Raw
+gitlab.com GitLab
+codeberg.org Codeberg
+pypi.org PyPI
+registry.npmjs.org npm
+hub.docker.com Docker Hub
+
+## Справочное и поиск
+www.wikipedia.org Wikipedia
+ru.wikipedia.org Wikipedia RU
+duckduckgo.com DuckDuckGo
+searx.be SearXNG
+archive.org Internet Archive
+scholar.google.com Google Scholar
+
+## Медиа и новости
+www.bbc.com BBC
+www.dw.com Deutsche Welle
+meduza.io Meduza
+www.svoboda.org Радио Свобода
+zona.media Медиазона
+
+## Кириллические домены
+почта.рф Почта России
+дом.рф ДОМ.РФ
+мвд.рф МВД
+
+## Прочее
+rutracker.org RuTracker
+nnmclub.to NNM-Club
+store.steampowered.com Steam
+www.epicgames.com Epic Games
+speedtest.net Speedtest
+
+# Свои сервисы дописывай сюда — например, домен собственного VPS.
+# Так сразу видно, задет ли фильтром именно твой узел.
+## Мои сервисы
+# my.example.ru Мой сервер
