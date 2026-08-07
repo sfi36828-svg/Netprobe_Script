@@ -3,10 +3,6 @@
 Один файл, только стандартная библиотека Python 3.7+. Ставить ничего не нужно.  
 **netprobe ставит диагноз, а не обходит блокировки.** Он показывает, что именно и на каком уровне сломано, чтобы не чинить вслепую.  
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANUlEQVR4nO3OMQ2AABAAsSPBCj5fFyM6mJHAjAU2QtIq6DIzW7UHAMBfnGt1V8fXEwAAXrsexOEF35f1aEgAAAAASUVORK5CYII=)  
-**ЛИЦЕНЗИЯ**
-
-MIT  
-![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANUlEQVR4nO3OMQ2AABAAsSPBCUZfEnoYmFDBhAU2QtIq6DIzW7UHAMBfnGt1V8fXEwAAXrse/wcF74lXkIsAAAAASUVORK5CYII=)  
 
 **ЗАПУСК**  
 
@@ -89,3 +85,9 @@ sudo python3 netprobe.py server
 Отсутствие результата и отсутствие блокировок — разные вещи, и скрипт их различает: при полном отказе сети выводится «ДАННЫХ НЕТ», а не «блокировок не найдено».  
 Определение туннеля опирается на имена интерфейсов. Нестандартно названный адаптер может быть не опознан — тогда соответствующие строки помечаются как «не проверялось», а не как утечка.  
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANklEQVR4nO3OMQ2AABAAsSNBACP6MMH6NpGACyywEZJWQZeZ2aszAAD+4l6rrTq+ngAA8Nr1AL+6BElk4wV6AAAAAElFTkSuQmCC)  
+
+**ЛИЦЕНЗИЯ**
+
+MIT  
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANUlEQVR4nO3OMQ2AABAAsSPBCUZfEnoYmFDBhAU2QtIq6DIzW7UHAMBfnGt1V8fXEwAAXrse/wcF74lXkIsAAAAASUVORK5CYII=)  
+
