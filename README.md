@@ -60,9 +60,11 @@ sudo python3 netprobe.py server
 В конце отчёта — вердикт и блок «ЧТО ДЕЛАТЬ» с шагами в порядке важности.  
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANklEQVR4nO3OMQ2AABAAsSNBCkJfFSqwwIgHRiywEZJWQZeZ2ao9AAD+4lyruzq+ngAA8Nr1AOH8BeZxN/IIAAAAAElFTkSuQmCC)  
 
-**Платформы**  
+**Платформы**
 
-|  - | -  |   
+| | |
+|-|-|
+|   |   |
 | Linux | полностью |   
 | Windows | winget install Python.Python.3.12, запуск через py |   
 | Android | Termux с F-Droid, pkg install python; часть проверок маршрутизации недоступна |   
