@@ -1,12 +1,12 @@
-**netprobe**  
+**NETPROBE**  
 Диагностика сетевых блокировок: DNS, SNI, QUIC, MTU, перехват HTTPS.  
 Один файл, только стандартная библиотека Python 3.7+. Ставить ничего не нужно.  
 **netprobe ставит диагноз, а не обходит блокировки.** Он показывает, что именно и на каком уровне сломано, чтобы не чинить вслепую.  
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANUlEQVR4nO3OMQ2AABAAsSPBCj5fFyM6mJHAjAU2QtIq6DIzW7UHAMBfnGt1V8fXEwAAXrsexOEF35f1aEgAAAAASUVORK5CYII=)  
-**Лицензия**  
+**ЛИЦЕНЗИЯ**  
 MIT  
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANUlEQVR4nO3OMQ2AABAAsSPBCUZfEnoYmFDBhAU2QtIq6DIzW7UHAMBfnGt1V8fXEwAAXrse/wcF74lXkIsAAAAASUVORK5CYII=)  
-**Запуск**  
+**ЗАПУСК**  
 **Сначала — самопроверка.** Проверяет сам скрипт, в сеть не выходит:  
 python3 netprobe.py selftest  
    
