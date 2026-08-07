@@ -68,7 +68,8 @@ sudo python3 netprobe.py server
 | Windows | winget install Python.Python.3.12, запуск через py |   
 | Android | Termux с F-Droid, pkg install python; часть проверок маршрутизации недоступна |   
 | Сервер | под sudo, иначе ss -p и iptables промолчат |   
-   
+
+   
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANElEQVR4nO3OQQmAABRAsSdYxKY/jMFMIZ7ECt5E2BJsmZmt2gMA4C+Otbqr8+sJAACvXQ85QgYXd/O+eQAAAABJRU5ErkJggg==)  
 
 **Приватность**  
