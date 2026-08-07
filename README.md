@@ -47,9 +47,7 @@ python3 netprobe.py digest scan-*.json --json digest.json
 **НА VPN-СЕРВЕРЕ:**  
 
 sudo python3 netprobe.py server  
-   
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAM0lEQVR4nO3OUQmAQBBAwSdcjsu6HYxoDsEK/okwk2COmdnVGQAAf3GtalX76wkAAK/dDxFWBDkFf6+SAAAAAElFTkSuQmCC)  
-
 **Что проверяет:**  
 
 **1. DNS.** Перехват порта 53 (пробы по пяти несуществующим адресам), инъекция ответов, подмена NXDOMAIN, валидация DNSSEC, сверка открытого 53 с DoH, доступность DoH и DoT, блэкхол по фрагментации.  
