@@ -62,7 +62,7 @@ sudo python3 netprobe.py server
 
 **Платформы**  
 
-|   |   |   
+|  - | -  |   
 | Linux | полностью |   
 | Windows | winget install Python.Python.3.12, запуск через py |   
 | Android | Termux с F-Droid, pkg install python; часть проверок маршрутизации недоступна |   
