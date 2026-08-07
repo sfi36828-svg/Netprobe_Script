@@ -11,6 +11,7 @@ MIT
 **ЗАПУСК**  
 
 **1. Сначала — самопроверка.** Проверяет сам скрипт, в сеть не выходит:  
+
 python3 netprobe.py selftest  
    
 норма везде — выводам можно доверять. недоступно — ограничение системы, не поломка. СБОЙ — ошибка скрипта, откройте issue с этим выводом.  
@@ -20,8 +21,10 @@ python3 netprobe.py selftest
 python3 netprobe.py client  
    
 Для полной картины — два прогона и сравнение:  
+
 python3 netprobe.py client --label novpn --json novpn.json   # VPN выключен  
  python3 netprobe.py client --label vpn   --json vpn.json     # VPN включён  
+ 
  python3 netprobe.py compare novpn.json vpn.json  
    
 Если резолвер находится внутри туннеля, укажите его в обоих прогонах: --dns 10.8.0.1  
@@ -29,6 +32,7 @@ python3 netprobe.py client --label novpn --json novpn.json   # VPN выклю�
 **3. Карта фильтрации — что вообще режут в этой сети:**  
 
 python3 netprobe.py scan  
+
  python3 netprobe.py scan --list scan-list.txt --json scan.json  
    
 39 имён в восьми группах: контроль, видео, мессенджеры, соцсети, шифрованный DNS, обходные пути, почта и облака, разное. Отвечает не на вопрос «почему у меня сломалось», а на вопрос «какая здесь политика фильтрации». Результат осмысленно сравнивать между людьми и городами.  
