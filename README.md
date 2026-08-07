@@ -48,6 +48,7 @@ python3 netprobe.py digest scan-*.json --json digest.json
 Показывает, что режется во всех замерах (общая политика), что только в части (местный фильтр, с указанием где), и долю блокировок по группам. Если контрольные имена не прошли ни в одном выпуске, сводка не строится: это признак обрыва связи, а не блокировки. 
 
 **НА VPN-СЕРВЕРЕ:**  
+
 sudo python3 netprobe.py server  
    
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAM0lEQVR4nO3OUQmAQBBAwSdcjsu6HYxoDsEK/okwk2COmdnVGQAAf3GtalX76wkAAK/dDxFWBDkFf6+SAAAAAElFTkSuQmCC)  
