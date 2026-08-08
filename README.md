@@ -19,9 +19,10 @@ python3 netprobe.py client
 Для полной картины — два прогона и сравнение:  
 
 python3 netprobe.py client --label novpn --json novpn.json   # VPN выключен  
- python3 netprobe.py client --label vpn   --json vpn.json     # VPN включён  
+
+python3 netprobe.py client --label vpn   --json vpn.json     # VPN включён  
  
- python3 netprobe.py compare novpn.json vpn.json  
+python3 netprobe.py compare novpn.json vpn.json  
    
 Если резолвер находится внутри туннеля, укажите его в обоих прогонах: --dns 10.8.0.1  
 
